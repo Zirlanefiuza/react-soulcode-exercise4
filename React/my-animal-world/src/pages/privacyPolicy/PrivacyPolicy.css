@@ -1,0 +1,19 @@
+.privacy-policy-container {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+p {
+  color: #FFF;
+  font-size: 25px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
